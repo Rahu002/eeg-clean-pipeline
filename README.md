@@ -1,6 +1,6 @@
 # 🧠 EEG-CLEAN-PIPELINE
 
-### Config-driven EEG cleaning and band-power pipeline: raw PhysioNet `.edf` in, clean Parquet out
+### Config-driven electroencephalogram-EEG cleaning and band-power pipeline: raw PhysioNet `.edf` in, clean Parquet out
 
 > **Status: work in progress.** Built step by step in public. Sections marked **(planned)** are not implemented yet and will be filled in as the project grows.
 
