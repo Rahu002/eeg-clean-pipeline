@@ -135,14 +135,16 @@ eeg-clean-pipeline/
 
 ## 🗂️ 7. Output Schema (planned)
 
-One row per subject, channel and band:
+One row per subject, recording run, channel and band:
 
 | Column | Meaning |
 |---|---|
 | `subject` | Subject ID |
+| `run` | Recording run number (each subject has several runs) |
 | `channel` | Electrode name |
 | `band` | delta / theta / alpha / beta |
-| `power` | Relative band power |
+| `relative_power` | Share of total power that sits in this band |
+| `absolute_power` | Power in this band |
 
 ---
 
